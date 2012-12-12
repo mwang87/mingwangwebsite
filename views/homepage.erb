@@ -147,11 +147,12 @@
             $("#mingacademics").removeClass("active");
             $("#mingmusic").addClass("active");
 
-            data_string = " <div id=\"mingdata\">\
-                            <%= @music_html%> \
-                            <br>  \
-                            <br>  </div>"
-            $("#mingdata").replaceWith(data_string);
+            //data_string = " <div id=\"mingdata\">\
+            //                <%= @music_html%> \
+            //                <br>  \
+            //                <br>  </div>"
+	    $("#mingdata").load("music.html");
+            //$("#mingdata").replaceWith(data_string);
         });
         
     </script>
