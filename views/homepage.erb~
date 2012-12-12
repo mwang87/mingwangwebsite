@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MingxunWang.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 40px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap.js"></script>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/">Mingxun Wang [dot] com</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li id="minghome" class="active"><a href="#">Home</a></li>
+              <li id="mingacademics" ><a href="#academics">Academics</a></li>
+              <li id="mingmusic" ><a href="#music">Music</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="span3">
+                        <img src="http://acamazingwebsite.heroku.com/images/Members/2012/mingwang1.jpg" alt="Mingxun Wang"/>
+                    </div>
+                    <div class="span4 offset1">
+                        <div class="row">
+                            <br>
+                            <br>
+                            <br>
+                            <h1> Mingxun Wang </h1>
+                            <br>
+                                University of California San Diego
+                                <br>
+                                Computer Science and Engineering
+                                <br>
+                                Office: EBU3B 4252
+                                <br>
+                                Email: miw023 [at] cs [dot] ucsd [dot] edu
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span8">
+                        <br>
+                        <br>
+                        <div id="mingdata">
+                        I am a second year PhD student at UCSD. My research interests are in bioinformatics and more specifically, I focus on computational mass spectrometry. At UCSD I have the honor of being advised by Nuno Bandeira. 
+                        
+                        <br>
+                        <br>
+
+                        Prior to coming to San Diego, I attended the University of Illinois for my undergraduate degree in computer engineering. However, it was in Rolla, MO that I spent my most impressionalbe years. 
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    
+    
+
+
+
+    <script>
+        $("#minghome").click(function() {
+            $("#minghome").removeClass("active");
+            $("#mingmusic").removeClass("active");
+            $("#mingacademics").removeClass("active");
+            $("#minghome").addClass("active");
+            
+            data_string = " <div id=\"mingdata\">\
+                            I am a second year PhD student at UCSD. My research interests are in bioinformatics and more specifically, I focus on computational mass spectrometry. At UCSD I have the honor of being advised by Nuno Bandeira. \
+                            <br>  \
+                            <br>  \
+                            Prior to coming to San Diego, I attended the University of Illinois for my undergraduate degree in computer engineering. However, it was in Rolla, MO that I spent my most impressionalbe years. \
+                            </div>"
+            $("#mingdata").replaceWith(data_string);
+        });
+        $("#mingacademics").click(function() {
+            $("#minghome").removeClass("active");
+            $("#mingmusic").removeClass("active");
+            $("#mingcontact").removeClass("active");
+            $("#mingacademics").removeClass("active");
+            $("#mingacademics").addClass("active");
+            data_string = " <div id=\"mingdata\">\
+			    <strong>Conference Publications</strong> \
+		 	    <br> \
+			    RECOMB 2013 \
+                            <strong>Conference Posters</strong>  \
+                            <br> \
+                            ASMS 2012: Spectral Library Generating Function: Assessing Spectrum Spectrum Significance \
+                            <br> <br> \
+                            <strong>Conference Organization</strong>  <br>\
+                            RECOMB Satellite Conference on Computational Proteomics, 2012 (RECOMB-CP 12), April 2012 \
+                            <br> \
+                            <i>Organizing Committee  </i> \
+                            <br>  </div>"
+            $("#mingdata").replaceWith(data_string);
+        });
+        $("#mingmusic").click(function() {
+            $("#minghome").removeClass("active");
+            $("#mingmusic").removeClass("active");
+            $("#mingcontact").removeClass("active");
+            $("#mingacademics").removeClass("active");
+            $("#mingmusic").addClass("active");
+
+            data_string = " <div id=\"mingdata\">\
+                            <%= @music_html%> \
+                            <br>  \
+                            <br>  </div>"
+            $("#mingdata").replaceWith(data_string);
+        });
+        
+    </script>
+
+  </body>
+</html>
