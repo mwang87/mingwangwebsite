@@ -1,5 +1,4 @@
 require 'sinatra'
-require 'erb'
 
 get '/' do
     musicfile = File.open("views/music.html", "rb")
