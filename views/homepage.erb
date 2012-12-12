@@ -81,14 +81,7 @@
                         <br>
                         <br>
                         <div id="mingdata">
-                        I am a second year PhD student at UCSD. My research interests are in bioinformatics and more specifically, I focus on computational mass spectrometry. At UCSD I have the honor of being advised by Nuno Bandeira. 
                         
-                        <br>
-                        <br>
-
-                        Prior to coming to San Diego, I attended the University of Illinois for my undergraduate degree in computer engineering. However, it was in Rolla, MO that I spent my most impressionalbe years. 
-
-                        </div>
                     </div>
                 </div>
             </div>
@@ -105,19 +98,14 @@
 
 
     <script>
+	$("#mingdata").load("about");
         $("#minghome").click(function() {
             $("#minghome").removeClass("active");
             $("#mingmusic").removeClass("active");
             $("#mingacademics").removeClass("active");
             $("#minghome").addClass("active");
             
-            data_string = " <div id=\"mingdata\">\
-                            I am a second year PhD student at UCSD. My research interests are in bioinformatics and more specifically, I focus on computational mass spectrometry. At UCSD I have the honor of being advised by Nuno Bandeira. \
-                            <br>  \
-                            <br>  \
-                            Prior to coming to San Diego, I attended the University of Illinois for my undergraduate degree in computer engineering. However, it was in Rolla, MO that I spent my most impressionalbe years. \
-                            </div>"
-            $("#mingdata").replaceWith(data_string);
+            $("#mingdata").load("about");
         });
         $("#mingacademics").click(function() {
             $("#minghome").removeClass("active");
@@ -125,20 +113,8 @@
             $("#mingcontact").removeClass("active");
             $("#mingacademics").removeClass("active");
             $("#mingacademics").addClass("active");
-            data_string = " <div id=\"mingdata\">\
-			    <strong>Conference Publications</strong> \
-		 	    <br> \
-			    RECOMB 2013 \
-                            <strong>Conference Posters</strong>  \
-                            <br> \
-                            ASMS 2012: Spectral Library Generating Function: Assessing Spectrum Spectrum Significance \
-                            <br> <br> \
-                            <strong>Conference Organization</strong>  <br>\
-                            RECOMB Satellite Conference on Computational Proteomics, 2012 (RECOMB-CP 12), April 2012 \
-                            <br> \
-                            <i>Organizing Committee  </i> \
-                            <br>  </div>"
-            $("#mingdata").replaceWith(data_string);
+
+		$("#mingdata").load("academic");
         });
         $("#mingmusic").click(function() {
             $("#minghome").removeClass("active");
@@ -147,12 +123,7 @@
             $("#mingacademics").removeClass("active");
             $("#mingmusic").addClass("active");
 
-            //data_string = " <div id=\"mingdata\">\
-            //                <%= @music_html%> \
-            //                <br>  \
-            //                <br>  </div>"
-	    $("#mingdata").load("music.html");
-            //$("#mingdata").replaceWith(data_string);
+	    $("#mingdata").load("music");
         });
         
     </script>
