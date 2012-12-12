@@ -28,7 +28,13 @@ helpers do
     what_i_been_looking.url = "http://dl.dropbox.com/u/9899826/Recorded%20Music/Release%20Ready/What%20I've%20Been%20Looking%20For%20-%20Spring%202010.mp3"
     
     
-    songs = [me_and_julio, auld_lang_syne, lucky, what_i_been_looking]
+    baobei = Song.new
+    baobei.title = "Baobei"
+    baobei.date = "Dec 2008"
+    baobei.url = "http://dl.dropbox.com/u/9899826/Recorded%20Music/Working%20Bounces/Baobei%20Revisited%20v2.mp3"
+    
+    
+    songs = [me_and_julio, auld_lang_syne, lucky, what_i_been_looking, baobei]
     return songs
     
   end
