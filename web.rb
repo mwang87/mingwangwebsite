@@ -8,7 +8,7 @@ helpers do
     
     
     me_and_julio = Song.new
-    me_and_julio.title = "Me and Julio"
+    me_and_julio.title = "Me and Julio Down by the School Yard"
     me_and_julio.date = "May 2012"
     me_and_julio.url = "http://dl.dropbox.com/u/9899826/Recorded%20Music/Release%20Ready/Me%20and%20Julio%20by%20Marlena%20and%20the%20Wang.mp3"
     
