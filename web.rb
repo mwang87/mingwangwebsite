@@ -6,7 +6,7 @@ helpers do
   
   def get_music()
     missme = Song.new
-    missme.title = "You're Gonna Miss Me f/ Sharon"
+    missme.title = "You're Gonna Miss Me feat. Sharon"
     missme.date = "April 2013"
     missme.url = "https://dl.dropboxusercontent.com/u/9899826/Recorded%20Music/Release%20Ready/You%27re%20Gonna%20Miss%20Me%20-%20Spring%202013.mp3"
     
