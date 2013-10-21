@@ -12,7 +12,7 @@ helpers do
     
 
     goodnight = Song.new
-    goodnight.title = "You're Gonna Miss Me feat. Sharon"
+    goodnight.title = "Goodnight Sweetheart"
     goodnight.date = "April 2013"
     goodnight.url = "http://dl.dropboxusercontent.com/s/9gd0gbyjzb8srky/Goodnight%20Sweetheart%20v6.mp3"
 
