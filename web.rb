@@ -10,6 +10,12 @@ helpers do
     missme.date = "April 2013"
     missme.url = "https://dl.dropboxusercontent.com/u/9899826/Recorded%20Music/Release%20Ready/You%27re%20Gonna%20Miss%20Me%20-%20Spring%202013.mp3"
     
+
+    goodnight = Song.new
+    goodnight.title = "You're Gonna Miss Me feat. Sharon"
+    goodnight.date = "April 2013"
+    goodnight.url = "http://dl.dropboxusercontent.com/s/9gd0gbyjzb8srky/Goodnight%20Sweetheart%20v6.mp3"
+
     
     mistletoe = Song.new
     mistletoe.title = "Mistletoe"
@@ -44,7 +50,7 @@ helpers do
     baobei.url = "http://dl.dropbox.com/u/9899826/Recorded%20Music/Working%20Bounces/Baobei%20Revisited%20v2.mp3"
     
     
-    songs = [missme, mistletoe, me_and_julio, auld_lang_syne, lucky, what_i_been_looking, baobei]
+    songs = [missme, goodnight, mistletoe, me_and_julio, auld_lang_syne, lucky, what_i_been_looking, baobei]
     return songs
     
   end
