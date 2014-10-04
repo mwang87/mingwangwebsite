@@ -6,9 +6,12 @@ In my spare time I attempt to arrange, record, and mix music. Have a listen!
 <% @songs.each do | song | %>
 <%= "<strong> " +  song.title  + " ("+ song.date + ")"+ " </strong>"%>
 <%= "<br>" %> 
-<%= "<script language=\"JavaScript\" src=\"./assets/flash/audio-player.js\"></script><object type=\"application/x-shockwave-flash\" data=\"./assets/flash/player.swf\" id=\"audioplayer1\" height=\"24\" width=\"290\"><param name=\"movie\" value=\"audio/player.swf\"><param name=\"FlashVars\" value=\"playerID=1&amp;soundFile=" %>
+<%= "<audio controls>" %>
+<%= "<source src=\"" %>
 <%= song.url %>
-<%= "\"><param name=\"quality\" value=\"high\"><param name=\"menu\" value=\"false\"><param name=\"wmode\" value=\"transparent\"></object>" %>
+<%="\" type=\"audio/mpeg\"> " %>
+<%="Your browser does not support the audio element.%>
+<%="</audio>"%>
 <%= "<br><br>" %>
 <% end %>
 
