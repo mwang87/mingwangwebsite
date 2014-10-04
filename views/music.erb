@@ -6,7 +6,7 @@ In my spare time I attempt to arrange, record, and mix music. Have a listen!
 <% @songs.each do | song | %>
 <%= "<strong> " +  song.title  + " ("+ song.date + ")"+ " </strong>"%>
 <%= "<br>" %> 
-<%= "<audio controls>" %>
+<%= "<audio controls preload=\"none\">" %>
 <%= "<source src=\"" %>
 <%= song.url %>
 <%="\" type=\"audio/mpeg\"> " %>
