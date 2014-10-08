@@ -34,6 +34,11 @@ helpers do
         me_and_julio.date = "May 2012"
         me_and_julio.url = "http://dl.dropbox.com/u/9899826/Recorded%20Music/Release%20Ready/Me%20and%20Julio%20by%20Marlena%20and%20the%20Wang.mp3"
 
+        hero = Song.new
+        hero.title = "Hero - Enrique"
+        hero.date = "Jan 2012"
+        hero.url = "https://www.dropbox.com/s/pz4fxke1cl1626s/Hero%20v11.mp3?dl=1"
+        
         auld_lang_syne = Song.new
         auld_lang_syne.title = "Auld Lang Syne"
         auld_lang_syne.date = "Dec 2011"
@@ -56,7 +61,7 @@ helpers do
         baobei.url = "http://dl.dropbox.com/u/9899826/Recorded%20Music/Working%20Bounces/Baobei%20Revisited%20v2.mp3"
 
 
-        songs = [winterwonderland, missme, goodnight, mistletoe, me_and_julio, auld_lang_syne, lucky, what_i_been_looking, baobei]
+        songs = [winterwonderland, missme, goodnight, mistletoe, me_and_julio, hero, auld_lang_syne, lucky, what_i_been_looking, baobei]
         return songs
 
     end
