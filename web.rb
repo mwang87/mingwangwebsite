@@ -22,6 +22,10 @@ helpers do
         goodnight.date = "April 2013"
         goodnight.url = "http://dl.dropboxusercontent.com/s/9gd0gbyjzb8srky/Goodnight%20Sweetheart%20v6.mp3"
 
+        waffles = Song.new
+        waffles.title = "Waffle Song"
+        waffles.date = "Feb 2013"
+        waffles.url = "https://www.dropbox.com/s/8oxfwycyfjl6pqw/Waffles%20v3.mp3?dl=1"
 
         mistletoe = Song.new
         mistletoe.title = "Mistletoe"
@@ -30,12 +34,12 @@ helpers do
 
 
         me_and_julio = Song.new
-        me_and_julio.title = "Me and Julio Down by the School Yard (Live)"
+        me_and_julio.title = "Me and Julio Down by the School Yard (Live) Feat. Marlena"
         me_and_julio.date = "May 2012"
         me_and_julio.url = "http://dl.dropbox.com/u/9899826/Recorded%20Music/Release%20Ready/Me%20and%20Julio%20by%20Marlena%20and%20the%20Wang.mp3"
 
         hero = Song.new
-        hero.title = "Hero - Enrique"
+        hero.title = "Hero - Enrique feat. Dave"
         hero.date = "Jan 2012"
         hero.url = "https://www.dropbox.com/s/pz4fxke1cl1626s/Hero%20v11.mp3?dl=1"
         
@@ -45,7 +49,7 @@ helpers do
         auld_lang_syne.url = "http://dl.dropbox.com/u/9899826/Recorded%20Music/Release%20Ready/Auld%20Lang%20Syne%20-%20Dec%202011.mp3"
 
         lucky = Song.new
-        lucky.title = "Lucky"
+        lucky.title = "Lucky feat. Sheryl"
         lucky.date = "Spring 2010"
         lucky.url = "http://dl.dropbox.com/u/9899826/Recorded%20Music/Release%20Ready/Lucky%20Spring%202010.mp3"
 
@@ -61,7 +65,7 @@ helpers do
         baobei.url = "http://dl.dropbox.com/u/9899826/Recorded%20Music/Working%20Bounces/Baobei%20Revisited%20v2.mp3"
 
 
-        songs = [winterwonderland, missme, goodnight, mistletoe, me_and_julio, hero, auld_lang_syne, lucky, what_i_been_looking, baobei]
+        songs = [winterwonderland, missme, goodnight, waffles, mistletoe, me_and_julio, hero, auld_lang_syne, lucky, what_i_been_looking, baobei]
         return songs
 
     end
