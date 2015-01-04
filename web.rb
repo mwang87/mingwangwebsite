@@ -5,6 +5,16 @@ helpers do
     Song = Struct.new(:title, :date, :url)
 
     def get_music()
+    	backhere = Song.new
+        backhere.title = "Back Here"
+        backhere.date = "Winter 2014"
+        backhere.url = "https://www.dropbox.com/s/cib5dgf3kgs3fe0/backhere%20v9.mp3?dl=1"
+        
+        whitechristmas = Song.new
+        whitechristmas.title = "White Christmas"
+        whitechristmas.date = "Winter 2014"
+        whitechristmas.url = "https://www.dropbox.com/s/xek0paw8zmmsqf7/White%20Christmas%20v6.mp3?dl=1"
+    
         winterwonderland = Song.new
         winterwonderland.title = "Winter Wonderland"
         winterwonderland.date = "Dec 2013"
@@ -65,7 +75,7 @@ helpers do
         baobei.url = "http://dl.dropbox.com/u/9899826/Recorded%20Music/Working%20Bounces/Baobei%20Revisited%20v2.mp3"
 
 
-        songs = [winterwonderland, missme, goodnight, waffles, mistletoe, me_and_julio, hero, auld_lang_syne, lucky, what_i_been_looking, baobei]
+        songs = [whitechristmas, backhere, winterwonderland, missme, goodnight, waffles, mistletoe, me_and_julio, hero, auld_lang_syne, lucky, what_i_been_looking, baobei]
         return songs
 
     end
