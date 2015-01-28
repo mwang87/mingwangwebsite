@@ -75,7 +75,7 @@ helpers do
         baobei.url = "http://dl.dropbox.com/u/9899826/Recorded%20Music/Working%20Bounces/Baobei%20Revisited%20v2.mp3"
 
 
-        songs = [whitechristmas, backhere, winterwonderland, missme, goodnight, waffles, mistletoe, me_and_julio, hero, auld_lang_syne, lucky, what_i_been_looking, baobei]
+        songs = [whitechristmas, backhere, winterwonderland, missme, goodnight, mistletoe, me_and_julio, hero, auld_lang_syne, lucky, what_i_been_looking, baobei]
         return songs
 
     end
