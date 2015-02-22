@@ -100,4 +100,9 @@ get '/academic' do
     erb :academic 
 end
 
+get '/projects' do
+
+    erb :projects 
+end
+
 

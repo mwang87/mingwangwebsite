@@ -57,6 +57,7 @@
               <li id="minghome" class="active"><a href="#">Home</a></li>
               <li id="mingacademics" ><a href="#academics">Academics</a></li>
               <li id="mingmusic" ><a href="#music">Music</a></li>
+              <li id="mingprojects" ><a href="#projects">Music</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -116,6 +117,7 @@
             $("#mingmusic").removeClass("active");
             $("#mingacademics").removeClass("active");
             $("#minghome").addClass("active");
+            $("#mingprojects").removeClass("active");
             
             $("#mingdata").load("about");
         });
@@ -125,6 +127,7 @@
             $("#mingcontact").removeClass("active");
             $("#mingacademics").removeClass("active");
             $("#mingacademics").addClass("active");
+            $("#mingprojects").removeClass("active");
 
 		$("#mingdata").load("academic");
         });
@@ -134,8 +137,20 @@
             $("#mingcontact").removeClass("active");
             $("#mingacademics").removeClass("active");
             $("#mingmusic").addClass("active");
+            $("#mingprojects").removeClass("active");
 
 	    $("#mingdata").load("music");
+        });
+        
+        $("#mingprojects").click(function() {
+            $("#minghome").removeClass("active");
+            $("#mingmusic").removeClass("active");
+            $("#mingcontact").removeClass("active");
+            $("#mingacademics").removeClass("active");
+            $("#mingmusic").removeClass("active");
+            $("#mingprojects").addClass("active");
+
+        $("#mingdata").load("projects");
         });
         
     </script>
