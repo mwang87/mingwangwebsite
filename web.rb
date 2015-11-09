@@ -9,18 +9,18 @@ helpers do
         backhere.title = "Back Here"
         backhere.date = "Winter 2014"
         backhere.url = "https://www.dropbox.com/s/cib5dgf3kgs3fe0/backhere%20v9.mp3?dl=1"
-        
+
         whitechristmas = Song.new
         whitechristmas.title = "White Christmas"
         whitechristmas.date = "Winter 2014"
         whitechristmas.url = "https://www.dropbox.com/s/xek0paw8zmmsqf7/White%20Christmas%20v6.mp3?dl=1"
-    
+
         winterwonderland = Song.new
         winterwonderland.title = "Winter Wonderland"
         winterwonderland.date = "Dec 2013"
         winterwonderland.url = "https://www.dropbox.com/s/tz330gmdmb1t2gc/Winter%20Wonderland%20v2.mp3?dl=1"
 
-        
+
         missme = Song.new
         missme.title = "You're Gonna Miss Me feat. Sharon"
         missme.date = "April 2013"
@@ -30,7 +30,7 @@ helpers do
         goodnight = Song.new
         goodnight.title = "Goodnight Sweetheart"
         goodnight.date = "April 2013"
-        goodnight.url = "http://dl.dropboxusercontent.com/s/9gd0gbyjzb8srky/Goodnight%20Sweetheart%20v6.mp3"
+        goodnight.url = "https://www.dropbox.com/s/9gd0gbyjzb8srky/Goodnight%20Sweetheart%20v6.mp3?dl=1"
 
         waffles = Song.new
         waffles.title = "Waffle Song"
@@ -52,7 +52,7 @@ helpers do
         hero.title = "Hero - Enrique feat. Dave"
         hero.date = "Jan 2012"
         hero.url = "https://www.dropbox.com/s/pz4fxke1cl1626s/Hero%20v11.mp3?dl=1"
-        
+
         auld_lang_syne = Song.new
         auld_lang_syne.title = "Auld Lang Syne"
         auld_lang_syne.date = "Dec 2011"
@@ -92,17 +92,15 @@ end
 
 get '/music' do
     @songs = get_music
-    erb :music 
+    erb :music
 end
 
 get '/academic' do
 
-    erb :academic 
+    erb :academic
 end
 
 get '/projects' do
 
-    erb :projects 
+    erb :projects
 end
-
-
