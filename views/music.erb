@@ -5,20 +5,27 @@ In my spare time I attempt to arrange, record, and mix music. Have a listen!
 
 <% @songs.each do | song | %>
 <%= "<strong> " +  song.title  + " ("+ song.date + ")"+ " </strong>"%>
-<%= "<br>" %> 
+<%= "<br>" %>
 <%= "<audio controls preload=\"none\">" %>
 <%= "<source src=\"" %>
 <%= song.url %>
 <%="\" type=\"audio/mpeg\"> " %>
 <%="Your browser does not support the audio element."%>
 <%="</audio>"%>
+<%="<a href=\""%>
+<%= song.url %>
+<%="\">"%>
+<%='<button type="button" class="btn btn-default" aria-label="Left Align">'%>
+<%='<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>'%>
+<%='</button>'%>
+<%="</a>"%>
 <%= "<br><br>" %>
 <% end %>
 
 
 
 <br>
-During the 2011-2012 school year, I was a member and a director of a co-ed a cappella group (<a href="http://acamazing.ucsd.edu/">Acamazing</a>) which I helped found in 2010. The following are performances during my tenure as director of which several pieces I arranged. 
+During the 2011-2012 school year, I was a member and a director of a co-ed a cappella group (<a href="http://acamazing.ucsd.edu/">Acamazing</a>) which I helped found in 2010. The following are performances during my tenure as director of which several pieces I arranged.
 
 <br>
 <br>
