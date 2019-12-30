@@ -11,11 +11,12 @@ theme:
         accent: 'orange'
     logo:
         icon: 'person_pin'
-    extra:
-        social:
-            - type: 'github'
-            link: 'https://github.com/mwang87'
-            - type: 'twitter'
-            link: 'https://twitter.com/mingxunwang'
+
+extra:
+    social:
+        - type: 'github'
+          link: 'https://github.com/mwang87'
+        - type: 'twitter'
+          link: 'https://twitter.com/mingxunwang'
 
 google_analytics: ['UA-15507025-1', 'mingxunwang.com']

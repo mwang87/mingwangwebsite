@@ -9,28 +9,28 @@ Starting from 2011, I produced holiday music for my friends.
 Recorded 2011
 
 <audio controls="" preload="none">
-  <source src="" type="audio/mpeg"> Your browser does not support the audio element.
+  <source src="mp3/AuldLangSyne.mp3" type="audio/mpeg"> Your browser does not support the audio element.
 </audio>
 
 ### Mistletoe
 Recorded 2012
 
 <audio controls="" preload="none">
-  <source src="" type="audio/mpeg"> Your browser does not support the audio element.
+  <source src="mp3/Mistletoe.mp3" type="audio/mpeg"> Your browser does not support the audio element.
 </audio>
 
 ### Winter Wonderland
 Recorded 2013
 
 <audio controls="" preload="none">
-  <source src="" type="audio/mpeg"> Your browser does not support the audio element.
+  <source src="mp3/WinterWonderland.mp3" type="audio/mpeg"> Your browser does not support the audio element.
 </audio>
 
 ### White Christmas
 Recorded 2014
 
 <audio controls="" preload="none">
-  <source src="" type="audio/mpeg"> Your browser does not support the audio element.
+  <source src="mp3/WhiteChristmas.mp3" type="audio/mpeg"> Your browser does not support the audio element.
 </audio>
 
 Since 2015, I have had a fruitful collaboration with Andrew T. Nelson. Listen to our [Holiday EPs](https://mwang87.github.io/MingAndAndrewHoliday/).
