@@ -37,6 +37,31 @@ Since 2015, I have had a fruitful collaboration with Andrew T. Nelson. Listen to
 
 ## Other Music
 
+### Go to Sleep Feat. Sheryl
+
+Recorded 2016
+
+<audio controls="" preload="none">
+  <source src="../mp3/Go to Sleep.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+</audio>
+
+### Lullabye Feat. Sheryl
+
+Recorded 2016
+
+<audio controls="" preload="none">
+  <source src="../mp3/Lullabye.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+</audio>
+
+### Mary Rock Feat. Sheryl
+
+Recorded 2016
+
+<audio controls="" preload="none">
+  <source src="../mp3/Mary Rock.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+</audio>
+
+
 ### Back Here
 
 Recorded 2014
