@@ -18,4 +18,4 @@ theme:
             - type: 'twitter'
             link: 'https://twitter.com/mingxunwang'
 
-#google_analytics: ['UA-15507025-6', 'mingxunwang.com']
+google_analytics: ['UA-15507025-1', 'mingxunwang.com']
