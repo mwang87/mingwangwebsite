@@ -77,6 +77,22 @@ Recorded 2012
   <source src="../mp3/Me and Julio.mp3" type="audio/mpeg"> Your browser does not support the audio element.
 </audio>
 
+### Bye Bye Love (Live) Feat. Marlena
+
+Recorded 2012
+
+<audio controls="" preload="none">
+  <source src="../mp3/Bye Bye Love.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+</audio>
+
+### Gee Baby (Live) Feat. Marlena
+
+Recorded 2012
+
+<audio controls="" preload="none">
+  <source src="../mp3/Gee Baby.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+</audio>
+
 ### Hero feat. Dave
 
 Recorded 2012
