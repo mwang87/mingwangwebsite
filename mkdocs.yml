@@ -1,0 +1,10 @@
+site_name: Mingxun Wang [dot] com
+pages:
+    - About Me: index.md
+    - Academics: academics.md
+    - Music: music.md
+    - Other: other.md
+theme:
+    name: material
+
+#google_analytics: ['UA-15507025-6', 'mingxunwang.com']
