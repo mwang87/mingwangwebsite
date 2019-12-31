@@ -1,5 +1,5 @@
 site_name: Mingxun Wang [dot] com
-pages:
+nav:
     - About Me: index.md
     - Academics: academics.md
     - Music: music.md
