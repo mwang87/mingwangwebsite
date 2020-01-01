@@ -41,7 +41,7 @@ Since 2015, I have had a fruitful collaboration with Andrew T. Nelson. Listen to
 
 Recorded 2017
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/Nh2Vbu6xfpw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nh2Vbu6xfpw" frameborder="0" allowfullscreen></iframe>
 
 ### Go to Sleep feat. Sheryl
 
@@ -71,19 +71,19 @@ Recorded 2016
 
 Recorded 2016
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/mI_lEI1UI84" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mI_lEI1UI84" frameborder="0" allowfullscreen></iframe>
 
 ### Domino
 
 Recorded 2016
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/QKsm_waTHX4" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QKsm_waTHX4" frameborder="0" allowfullscreen></iframe>
 
 ### Kiss
 
 Recorded 2016
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/C3iIvRqy5oc" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C3iIvRqy5oc" frameborder="0" allowfullscreen></iframe>
 
 
 ### Back Here
@@ -182,12 +182,12 @@ During the 2011-2012 school year, I was a member and a director of a co-ed a cap
 
 ### Absolutely (Story of a Girl) - Nine Days
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/XVhXE49LekE" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XVhXE49LekE" frameborder="0" allowfullscreen></iframe>
 
 ### Breathe - Michelle Branch
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/Pzc2V4rjuI0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pzc2V4rjuI0" frameborder="0" allowfullscreen></iframe>
 
 ### Mercy - Duffy
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/j5kNVfkGUpQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j5kNVfkGUpQ" frameborder="0" allowfullscreen></iframe>
