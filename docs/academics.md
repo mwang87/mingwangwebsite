@@ -348,3 +348,7 @@ Bandeira, Bradley S Moore, Pavel A Pevzner, Pieter C Dorrestein,
 **Mingxun Wang**, Nuno Bandeira, [Spectral library generating function
 for assessing spectrum-spectrum match significance](https://pubs.acs.org/doi/10.1021/pr400230p), ***Journal of
 Proteome Research***
+
+### PhD Work
+
+You can find my PhD Defense [here](https://www.youtube.com/watch?v=JMbBD1seQ_g&t=2s) and the written thesis [here](https://escholarship.org/uc/item/08g414s7). 
