@@ -4,7 +4,7 @@
 
 [Google Scholar](https://scholar.google.com/citations?user=jMvg4eMAAAAJ&hl=en)
 
-Last Updated 12/2019
+Page last revised on: {{ git_revision_date }}
 
 ## Journal Publications
 
