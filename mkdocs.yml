@@ -18,5 +18,7 @@ extra:
           link: 'https://github.com/mwang87'
         - type: 'twitter'
           link: 'https://twitter.com/mingxunwang'
-
+plugins:
+    - search
+    - git-revision-date
 google_analytics: ['UA-15507025-1', 'mingxunwang.com']
