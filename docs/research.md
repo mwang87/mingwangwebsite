@@ -12,7 +12,7 @@ BLAST for nucleotides has transformed the way scientists can connect their own d
 
 ### MassQL
 
-Lorem Ipsum
+The ability to mine public data
 
 ## Mass Spectrometry Knowledgebases
 
