@@ -1,10 +1,8 @@
 ## Cirriculum Vitae
 
-[Download CV PDF](cv/MingxunWangCV.pdf)
+[Download CV PDF (2020)](cv/MingxunWangCV.pdf)
 
 [Google Scholar](https://scholar.google.com/citations?user=jMvg4eMAAAAJ&hl=en)
-
-Page last revised on: {{ git_revision_date }}
 
 ## Journal Publications
 

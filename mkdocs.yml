@@ -1,4 +1,5 @@
 site_name: Mingxun Wang [dot] com
+
 nav:
     - About Me: index.md
     - Research: research.md
@@ -10,8 +11,6 @@ theme:
     palette:
         primary: 'blue'
         accent: 'orange'
-    logo:
-        icon: 'person_pin'
 
 extra:
     social:
@@ -19,7 +18,18 @@ extra:
           link: 'https://github.com/mwang87'
         - type: 'twitter'
           link: 'https://twitter.com/mingxunwang'
+
 plugins:
     - search
-    - git-revision-date
-google_analytics: ['UA-15507025-1', 'mingxunwang.com']
+    - git-revision-date-localized:
+        type: datetime
+
+markdown_extensions:
+    - toc:
+        permalink: true
+    - admonition
+
+extra:
+  analytics:
+    provider: google
+    property: UA-15507025-1
