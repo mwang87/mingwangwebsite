@@ -1,2 +1,2 @@
-0.0.0.0 engadget.com
-0.0.0.0 www.engadget.com
+engadget.com
+www.engadget.com
