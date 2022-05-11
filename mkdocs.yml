@@ -8,7 +8,7 @@ nav:
     - Other: other.md
     
 theme:
-    name: material
+    name: 'material'
     palette:
         primary: 'blue'
         accent: 'orange'
