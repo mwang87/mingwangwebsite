@@ -6,7 +6,7 @@ I am a computer engineer/scientist/bioinformatician by training. Currently an As
 
 ## Contact Information
 
-Department fo Computer Science and Engineering
+Department of Computer Science and Engineering
 <br>
 University of California - Riverside
 <br>
