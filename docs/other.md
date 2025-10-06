@@ -11,3 +11,4 @@ I created potato surfer in 2014 with a couple of friends. We wanted to recreate 
 ## The Great Watermelon Study of 2015
 
 Have you ever wanted to pick the best watermelon while standing at the store but didn't know how to tell? Well, check out the blog at [https://watermelon4lyfe.wordpress.com/](https://watermelon4lyfe.wordpress.com/).
+
