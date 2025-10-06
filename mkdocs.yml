@@ -3,7 +3,6 @@ site_name: Mingxun Wang [dot] com
 nav:
     - About Me: index.md
     - Research: research.md
-    - Publications: publications.md
     - Music: music.md
     - Other: other.md
     
